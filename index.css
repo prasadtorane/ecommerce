@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -36,7 +43,7 @@ nav {
 .nav__links li a {
     text-decoration: none;
     color: gray;
-    font-weight: bold;
+    font-weight: 600;
     transition: 0.3s ease-in-out;
 }
 .nav__links li a:hover {
@@ -56,7 +63,7 @@ nav {
 .navLinks li a {
     text-decoration: none;
     color: gray;
-    font-weight: bold;
+    font-weight: 600;
     transition: 0.3s ease-in-out;
 }
 .navLinks li a:hover {
