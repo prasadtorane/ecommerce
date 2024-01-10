@@ -37,7 +37,7 @@ nav {
     
 }
 .nav__links li {
-    font-size: 20px;
+    font-size: 16px;
     margin: 12px;
 }
 .nav__links li a {
@@ -58,7 +58,7 @@ nav {
 }
 .navLinks li {
     margin: 12px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .navLinks li a {
     text-decoration: none;
@@ -78,3 +78,52 @@ nav {
     margin-right: 20px;
     font-size: 20px;
 }
+
+/* hero section */
+#hero {
+    
+    padding: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content {
+    
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.hero-content #leaf-logo{
+    margin-bottom: 40px;
+}
+.hero-content h4 {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.hero-content h1{
+    margin-bottom: 40px;
+    font-size: 3.25rem;
+    font-family: 'Merriweather', serif;
+    
+}
+.hero-content p {
+    margin-bottom: 40px;
+}
+.hero-content button {
+    padding: 12px 33px;
+    background-color: 	rgb(53, 168, 53);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.hero-content button:hover {
+    background-color: rgb(53, 191, 53);
+}
+.hero-content button i {
+    margin-right: 12px;
+}
+
+   
