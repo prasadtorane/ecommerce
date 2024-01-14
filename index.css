@@ -228,7 +228,7 @@ nav {
     padding: 80px 100px;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     background-color: rgb(250, 241, 230);
 }
 .organic-boxes{
@@ -321,8 +321,8 @@ discount banner */
 
 /* reviews */
 .reviews {
-    padding: 40px 80px;
-    border: 2px solid red;
+    padding: 50px 80px;
+    background-color: rgb(250, 241, 230);
 }
 .reviews .heading {
     display: flex;
@@ -330,16 +330,18 @@ discount banner */
     text-align: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 .customer-reviews{
-    border: 2px solid black;
+   
+    
     padding: 40px 80px;
     display: flex;
     justify-content: space-evenly;
   
 }
 .reviews-box, .text-block{
-    border: 2px solid green;
+    border: 2px solid #fff;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -351,18 +353,31 @@ discount banner */
     display: flex;
     flex-direction: column;
     padding: 32px 34px;
-    background: url("./img/berries.jpg") center/cover no-repeat;
+    position: relative;
     align-items: center;
     text-align: center;
     color: #fff;
-    opacity: 1;
+    background-color: #000;
+    border-radius: 10px;
+}
+.text-block::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("./img/berries.jpg");
+    background-size: cover;
+    opacity: 0.5;
 }
 .text-block h2 {
     font-size: 2rem;
     margin-top: 10px;
+    isolation: isolate;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.3em;
 }
 .text-block p {
     margin-top: 20px;
+    isolation: isolate;
 }
 .text-block button {
   margin-top: 100px;
@@ -374,6 +389,7 @@ discount banner */
     font-size: 15px;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    isolation: isolate;
 }
 .text-block button:hover {
     background-color: rgb(53, 191, 53);
@@ -386,7 +402,8 @@ discount banner */
     text-align: center;
     padding: 22px 32px;
     margin-top: 100px;
-    border-radius: 20px;
+    border-radius: 10px;
+    background-color: #fff;
 }
 .reviews-box p {
     margin: 20px 0px;
@@ -401,4 +418,12 @@ discount banner */
 }
 .reviews-box .stars {
     color: gold;
+}
+.logos {
+    padding: 60px 60px;
+    display: flex;
+    align-items: center;
+}
+.logos img {
+    margin-left: 20px;
 }
