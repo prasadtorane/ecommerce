@@ -359,6 +359,7 @@ discount banner */
     color: #fff;
     background-color: #000;
     border-radius: 10px;
+    transition: 0.3s ease-in-out;
 }
 .text-block::before{
     content: "";
@@ -368,6 +369,7 @@ discount banner */
     background-size: cover;
     opacity: 0.5;
 }
+
 .text-block h2 {
     font-size: 2rem;
     margin-top: 10px;
@@ -426,4 +428,77 @@ discount banner */
 }
 .logos img {
     margin-left: 20px;
+}
+
+/* footer */
+
+footer {
+    
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #010134;
+    color: #fff;
+}
+.col {
+    width: 30%;
+}
+.col .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+ .logo img {
+   margin-bottom: 40px;
+}
+.quick-links h2 {
+    margin-bottom: 40px;
+}
+.col-2 li {
+ list-style: none;
+ 
+}
+.col-2 li a {
+    text-decoration: none;
+    color: #fff;
+}
+.site-links {
+    margin-top: 30px;
+}
+.site-links h2 {
+    margin-bottom: 40px;
+}
+.col-2 .quick-links li , .site-links li {
+    margin: 6px;
+}
+
+.col-3 li {
+ list-style: none;
+}
+.col-3 li a {
+    text-decoration: none;
+    color: #fff;
+}
+.col-3 h2 {
+    margin-bottom: 40px;
+}
+.google-play {
+    margin-top: 40px;
+}
+.google-play li {
+    margin: 6px;
+}
+.google-play li a {
+    color: rgb(15, 240, 15);
+}
+.playstore {
+   margin-top: 20px;
+   margin-left: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.playstore img {
+  margin: 8px;
+  cursor: pointer;
 }
